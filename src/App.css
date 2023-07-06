@@ -1,38 +1,101 @@
-.App {
+/*  ===== MOBILE styles (reside at the top and are inherited by all devices) ===== */
+/*  ===== See tablet, desktop, and print @media queries at the bottom. */
+
+
+/*   ----- Imports  -----  */
+
+/* ----- Variables  -----  */
+:root {
+  --primary-color: #2c3e50;      /* Dark Blue */
+  --secondary-color: #2980b9;    /* Blue */
+  --accent-color: #e74c3c;       /* Red */
+  --text-color: #ffffff;         /* White */
+  --background-color: #34495e;    /* Dark Gray */
+}
+
+/* Font Styles */
+@import url('https://fonts.googleapis.com/css?family=SourceSansPro:400,700&display=swap');  
+
+/* ----- Anchors ----- Text links */
+a {}
+a:link {}
+a:hover {}
+a:active {}
+a:visited {}
+
+/*  ----- Navigation ----- Override text links for navigation only.  */
+nav {
+  text-decoration:none;
+  background-color:var(--alpha);
+  margin:20px;
+  padding:1%;
+}
+nav a {
+  background-color:var(--grey);
+  border:2px solid var(--near-black);
+  border-radius:5px 5px 0 0; 
+  color:var(--near-black);
+  font-size:1.1em;
+  font-weight:bold;
+  margin-right:3px;
+  padding: 3px 20px 5px 20px;
+  text-decoration:none;;
+}
+nav a:hover {
+  background-color:var(--tan);
+  color:var(--near-black);
+  text-decoration:none;
+}
+
+/*  ----- Page layout blocks -----  */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+/* Header Styles */
+header {
+  background-color: var(--primary-color);
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+/* Main Styles */
+main {
+  padding: 40px 0;
+}
+
+/* Footer Styles */
+footer {
+  background-color: var(--primary-color);
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+footer p {
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Links Styles */
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a:hover {
+  color: var(--accent-color);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
