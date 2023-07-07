@@ -1,7 +1,6 @@
 import React from 'react';
 import ContentCard from '../components/ContentCard';
-// import ContentCard from '../components/ContentCard';
-// import projects from '../data/projects.js';
+import projects from '../data/projects.js';
 
 function PortfolioPage() {
     return (
@@ -9,7 +8,7 @@ function PortfolioPage() {
 
     <h2>This is the portfolio page</h2>
     <article>
-        <ContentCard />
+        {projects.map((project) => <ContentCard project={project} />)}
     </article>
         </>
     );

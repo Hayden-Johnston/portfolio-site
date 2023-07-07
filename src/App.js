@@ -35,9 +35,9 @@ function App() {
           </Routes>
         </section>
       </main>
-      <footer>
+      {/* <footer>
         <p><cite>&copy; 2023 Hayden Johnston</cite></p>
-      </footer>
+      </footer> */}
     </div>
     </BrowserRouter>
     </>
