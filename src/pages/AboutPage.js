@@ -4,9 +4,9 @@ function AboutPage() {
     return (
         <>
 
-    <div class="container">
+    <div class="center-container">
         <img src="images/selfie.png" class="portrait"></img>
-        <article>
+        <article class="container">
             <h2>I'm Hayden</h2>
             <p>
                 Initially trained in biochemistry, I'm currently studying computer science to pursue software engineering. I have interest in full stack development, data science, and machine learning.
@@ -24,6 +24,7 @@ function AboutPage() {
                     <li>Node.js</li>
                     <li>Flask</li>
                     <li>SQL</li>
+                    <li>MongoDB</li>
                     <li>Git</li>
                     <li>Linux</li>
                     <li>Docker</li>
