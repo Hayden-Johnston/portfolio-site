@@ -6,23 +6,22 @@ function ContactPage() {
   const [name, setName] = useState('');
   return (
     <>
-      <h2>Contact:</h2>
+    <div class="center-container">
+    <h2>Contact:</h2>
+    </div>
+    <div class="center-container">
+      
         <form>
           <fieldset>
             
 
               <TextInputs/>
               <br></br>
-              <Button href="files/Hayden_Johnston_Resume.pdf" download>Download Resume</Button>
-              <button onClick={e => {
-                setName(e.target.value);
-                alert(`Your name is ${name}`);
-                e.preventDefault();
-              }}>Submit
-              </button>
+              <Button></Button>
               
           </fieldset>
         </form>
+      </div>
     </>
   );
 }
