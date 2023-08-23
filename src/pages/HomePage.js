@@ -4,12 +4,18 @@ function HomePage() {
     return (
         <>
 
-    <h2>Welcome to this demonstration site using the MERN stack.</h2>
+    <div class="container">
+    <h2>Hey,</h2>
     <article>
-        <h3></h3>
+        <h3>I'm Hayden.</h3>
         <p>
+            I'm a software engineer with a background in biochemistry. I'm currently studying computer science.
+            <br></br>
+            <br></br>
+            Looking for Internships + Entry level opportunities.
         </p>
     </article>
+    </div>
         </>
     );
 }
