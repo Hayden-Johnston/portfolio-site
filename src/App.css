@@ -65,7 +65,7 @@ body {
   justify-content: space-between;
   gap: 40px; /* Adjust the spacing between cards */
   max-width: 1200px;
-  padding: 40px;
+  padding: 20px;
 }
 
 .center-container {
@@ -73,6 +73,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding:10px;
 }
 
 /* Header Styles */
@@ -140,4 +141,8 @@ nav {
 /* List */
 .two-column-list {
   column-count: 2;
+}
+
+.contact-form {
+  border:none;
 }
