@@ -6,10 +6,11 @@ function AboutPage() {
         <>
 
     <div class="center-container">
-        <img src="images/selfie.png" class="portrait"></img>
+        <img src="images/selfie.png" alt="" class="portrait"></img>
         <article class="container">
             <h2>I'm Hayden</h2>
-            <Button href="files/Hayden_Johnston_Resume.pdf" download>Download Resume</Button>
+            <br></br>
+            <Button download>Download Resume</Button>
             <p>
                 Initially trained in biochemistry, I'm currently studying computer science to pursue software engineering. I have interest in full stack development, data science, and machine learning.
                 I'm especially interested in the intersection of biology and computer science, and I'm looking to work on projects that combine the two.
