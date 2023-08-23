@@ -136,3 +136,8 @@ nav {
   border-radius: 50px; /* Add rounded edges */
   margin: 80px;
 }
+
+/* List */
+.two-column-list {
+  column-count: 2;
+}

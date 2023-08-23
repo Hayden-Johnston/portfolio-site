@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../components/DownloadButton.js';
 
 function AboutPage() {
     return (
@@ -8,16 +9,17 @@ function AboutPage() {
         <img src="images/selfie.png" class="portrait"></img>
         <article class="container">
             <h2>I'm Hayden</h2>
+            <Button href="files/Hayden_Johnston_Resume.pdf" download>Download Resume</Button>
             <p>
                 Initially trained in biochemistry, I'm currently studying computer science to pursue software engineering. I have interest in full stack development, data science, and machine learning.
                 I'm especially interested in the intersection of biology and computer science, and I'm looking to work on projects that combine the two.
                 I am also intrigued by devops practices such as CI/CD and IaC.  <br></br><br></br>
-                I run a homelab server that hosts a variety of services including a dev environment, a NextCloud Instance, and Authelia.
-                If I'm not working on my server, I'm playing chess or Baldur's Gate 3.
+                I run a homelab server that hosts a variety of services including authentication, a dev environment, and a NextCloud Instance.  It allows me to experiment with different linux environments and deploy containers which I route through DDNS and a reverse proxy.
+                Outside of the tech world I enjoy games and travelling.
                 <br></br>
                 <br></br>
                 I have experience with:
-                <ul>
+                <ul class="two-column-list">
                     <li>Python</li>
                     <li>JavaScript</li>
                     <li>React</li>

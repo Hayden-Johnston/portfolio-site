@@ -1,35 +1,19 @@
 import React, { useState } from 'react';
+import TextInputs from '../components/TextInputs.js';
+import Button from '../components/SubmitButton.js';
 
 function ContactPage() {
   const [name, setName] = useState('');
   return (
     <>
-      <h2>Contact Us</h2>
-      <p>Contact using this secure form below:</p>
+      <h2>Contact:</h2>
         <form>
           <fieldset>
-            <legend>Your Details</legend>
+            
 
-              <label>Name:
-                <input type="text" value={name}
-                  onChange={e => setName(e.target.value)} />
-              </label>
+              <TextInputs/>
               <br></br>
-              <label>Email:
-                <input type="text" value={name}
-                  onChange={e => setName(e.target.value)} />
-              </label>
-              <br></br>
-              <label>Subject:
-                <input type="text" value={name}
-                  onChange={e => setName(e.target.value)} />
-              </label>
-              <br></br>
-              <label>Message:
-                <input type="text" value={name}
-                  onChange={e => setName(e.target.value)} />
-              </label>
-              <br></br>
+              <Button href="files/Hayden_Johnston_Resume.pdf" download>Download Resume</Button>
               <button onClick={e => {
                 setName(e.target.value);
                 alert(`Your name is ${name}`);
