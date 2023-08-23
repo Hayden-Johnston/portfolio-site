@@ -6,10 +6,14 @@ function PortfolioPage() {
     return (
         <>
 
-    <h2>This is the portfolio page</h2>
-    <article>
-        {projects.map((project) => <ContentCard project={project} />)}
-    </article>
+    <div class="center-container">
+        <h2>Portfolio</h2>
+    </div>
+    <div class="center-container">
+        <div class="cards-container">
+            {projects.map((project) => <ContentCard project={project} class="card"/>)}
+        </div>
+    </div>
         </>
     );
 }
