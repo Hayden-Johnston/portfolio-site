@@ -10,11 +10,26 @@ function ContactPage() {
           <fieldset>
             <legend>Your Details</legend>
 
-              <label>Please enter your name
+              <label>Name:
                 <input type="text" value={name}
                   onChange={e => setName(e.target.value)} />
               </label>
-
+              <br></br>
+              <label>Email:
+                <input type="text" value={name}
+                  onChange={e => setName(e.target.value)} />
+              </label>
+              <br></br>
+              <label>Subject:
+                <input type="text" value={name}
+                  onChange={e => setName(e.target.value)} />
+              </label>
+              <br></br>
+              <label>Message:
+                <input type="text" value={name}
+                  onChange={e => setName(e.target.value)} />
+              </label>
+              <br></br>
               <button onClick={e => {
                 setName(e.target.value);
                 alert(`Your name is ${name}`);
