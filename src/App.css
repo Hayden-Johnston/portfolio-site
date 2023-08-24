@@ -9,8 +9,8 @@
   --primary-color: #2c3e50;      /* Dark Blue */
   --secondary-color: #2980b9;    /* Blue */
   --accent-color: #e74c3c;       /* Red */
-  --text-color: #ffffff;         /* White */
-  --background-color: #34495e;    /* Dark Gray */
+  --text-color: #000d00;         /* White */
+  --background-color: #dae6e6;
 }
 
 /* Font Styles */
@@ -34,7 +34,7 @@ nav a {
   background-color:var(--grey);
   border:2px solid var(--near-black);
   border-radius:5px 5px 0 0; 
-  color:var(--near-black);
+  color:var(--background-color);
   font-size:1.1em;
   font-weight:bold;
   margin-right:3px;
@@ -43,7 +43,7 @@ nav a {
 }
 nav a:hover {
   background-color:var(--tan);
-  color:var(--near-black);
+  color:var(--secondary-color);
   text-decoration:none;
 }
 
@@ -73,7 +73,6 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding:10px;
 }
 
 /* Header Styles */
