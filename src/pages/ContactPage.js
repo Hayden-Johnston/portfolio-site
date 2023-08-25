@@ -8,6 +8,8 @@ import { useNavigate } from 'react-router-dom';
 
 function ContactPage() {
 
+    const token = process.env.REACT_APP_EMAILJS;
+
     const navigate = useNavigate()
 
     const initialTemplateParams = {
@@ -27,12 +29,10 @@ function ContactPage() {
       }));
     };
 
-    // const form = useRef();
-
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.send('gmail', 'contact_form', templateParams, "K0zXrFuxfr7gKiqea")
+      emailjs.send('gmail', 'contact_form', templateParams, token)
         .then((result) => {
             console.log(result.text);
         }, (error) => {
