@@ -79,7 +79,7 @@ body {
 header {
   background-color: var(--primary-color);
   font-family: 'Source Sans Pro', sans-serif;
-  /* padding: 20px; */
+  padding: 10px;
 }
 
 header h1 {
@@ -139,6 +139,8 @@ button {
   height: auto;
   border-radius: 50px; /* Add rounded edges */
   margin-bottom: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 /* List */
