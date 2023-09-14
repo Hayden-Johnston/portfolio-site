@@ -29,8 +29,6 @@ function DrawerAppBar(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <Typography variant="h6" sx={{ my: 2 }} >
-      </Typography>
       <Divider />
       <List>
         {navItems.map((item) => (
@@ -49,8 +47,7 @@ function DrawerAppBar(props) {
 
   return (
     <Box color="#dae6e6" sx={{ display: "flex" }}>
-      <CssBaseline />
-      <AppBar position="sticky" component="nav" color="transparent" elevation={0} >
+      <AppBar position="sticky" component="nav" color="transparent" elevation={0} style={{ margin: '0', padding: '10px' }}>
         <Toolbar>
           <IconButton
             color="inherit"
@@ -77,7 +74,7 @@ function DrawerAppBar(props) {
         </Toolbar>
       </AppBar>
       <nav>
-        <Drawer
+        <Drawer 
           container={container}
           variant="temporary"
           open={mobileOpen}
