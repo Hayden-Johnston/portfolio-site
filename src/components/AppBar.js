@@ -33,7 +33,7 @@ function DrawerAppBar(props) {
         {navItems.map((item) => (
           <ListItem key={item} disablePadding>
             <ListItemButton sx={{ textAlign: "center"}}>
-              <ListItemText primary={item} primaryTypographyProps={{fontSize: '30px'}}/>
+              <ListItemText primary={item} primaryTypographyProps={{fontSize: '30px', color: '#dae6e6'}}/>
             </ListItemButton>
           </ListItem>
         ))}
@@ -45,7 +45,7 @@ function DrawerAppBar(props) {
     window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box color="#dae6e6" sx={{ display: "flex" }}>
+    <Box color="#dae6e6" sx={{ display: "flex", minWidth: "800px"}}>
       <AppBar position="sticky" component="nav" color="transparent" elevation={0} style={{ margin: '0', padding: '10px' }}>
         <Toolbar>
           <IconButton
@@ -83,6 +83,7 @@ function DrawerAppBar(props) {
           }}
           sx={{
             backgroundColor: "#dae6e6",
+            color:"#dae6e6",
             display: { xs: "block", sm: "none" },
             "& .MuiDrawer-paper": {
               boxSizing: "border-box",
