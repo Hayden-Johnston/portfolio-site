@@ -6,7 +6,7 @@ function PortfolioPage() {
     return (
         <>
 
-    <div class="center-container">
+    <div class="center-container" style={{ paddingTop:"40px" }}>
         <h2>Portfolio</h2>
     </div>
     <div class="center-container">

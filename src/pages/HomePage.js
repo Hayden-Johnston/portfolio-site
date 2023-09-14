@@ -6,7 +6,7 @@ function HomePage() {
     return (
         <>
 
-    <div class="container">
+    <div class="container" style={{ paddingTop:"40px" }}>
     <h2>Hey,</h2>
     <article>
         <h3>I'm Hayden.</h3>

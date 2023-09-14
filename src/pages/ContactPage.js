@@ -44,7 +44,7 @@ function ContactPage() {
 
   return (
     <>
-    <div class="center-container">
+    <div class="center-container" style={{ paddingTop:"40px" }}>
     <h2>Contact</h2>
     </div>
     <br></br>
