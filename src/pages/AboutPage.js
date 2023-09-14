@@ -15,8 +15,8 @@ function AboutPage() {
                 Initially trained in biochemistry, I'm currently studying computer science to pursue software engineering. I have interest in full stack development, data science, and machine learning.
                 I'm especially interested in the intersection of biology and computer science, and I'm looking to work on projects that combine the two.
                 I am also intrigued by dev ops practices such as CI/CD and implementing infrastructure as code.  <br></br><br></br>
-                I run a homelab server with a GPU cluster to accelerate ML projects.  It also allows me to experiment with different linux environments and deploy self hosted services.
-                I am currently using it to learn Kubernetes before I move on to Terraform.
+                I run a homelab server that I use to experiment with different Linux environments, run self hosted services, and learn dev tools.
+                I am currently using it to learn Kubernetes on a local cluster running CentOS.  It also contains a GPU cluster that I intend on leveraging for machine learning projects.
                 Outside of the tech world I enjoy games and travelling.
                 <br></br>
                 <br></br>
