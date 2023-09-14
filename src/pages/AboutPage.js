@@ -18,7 +18,7 @@ function AboutPage() {
                 <br></br><br></br>
                 
                 I run a home lab server that I use to experiment with different Linux environments, deploy self-hosted services, and learn dev tools.
-                I am in the process of configuring GPU nodes that I intend to leverage for machine learning projects.  I am also currently using it to learn Kubernetes on a local cluster running CentOS.
+                I am in the process of configuring GPU nodes that I intend to leverage for machine learning projects.  I am also currently learning Kubernetes on a local cluster running CentOS.
                 Outside of the tech world I enjoy games and travelling.
                 <br></br>
                 <br></br>
