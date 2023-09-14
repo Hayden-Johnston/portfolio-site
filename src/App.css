@@ -28,14 +28,13 @@ nav {
   text-decoration:none;
   background-color:var(--alpha);
   margin:20px;
-  padding:1%;
 }
 nav a {
   background-color:var(--grey);
   border:2px solid var(--near-black);
   border-radius:5px 5px 0 0; 
   color:var(--background-color);
-  font-size:1.1em;
+  font-size:1.2em;
   font-weight:bold;
   margin-right:3px;
   padding: 3px 20px 5px 20px;
@@ -62,10 +61,11 @@ body {
 .cards-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   gap: 40px; /* Adjust the spacing between cards */
-  max-width: 1200px;
+  max-width: 95%;
   padding: 20px;
+  flex-basis: 66%;
 }
 
 .center-container {
@@ -79,7 +79,7 @@ body {
 header {
   background-color: var(--primary-color);
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 header h1 {
@@ -100,7 +100,7 @@ p {
 
 /* Main Styles */
 main {
-  margin-inline: 200px;
+  margin-inline: 5%;
   padding: 40px 0;
 }
 
@@ -127,6 +127,10 @@ a:hover {
 
 nav {
   margin-inline: 75px;
+}
+
+button {
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* Images */

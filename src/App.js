@@ -3,7 +3,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // Import Components, styles, media
-import Nav from './components/Nav';
+import AppBar from './components/AppBar';
 import './App.css';
 
 // Import Pages
@@ -23,7 +23,7 @@ function App() {
         {/* <h1>
           HaydenGG
         </h1> */}
-        <Nav />
+        <AppBar />
       </header>
       <main>
         <section>
