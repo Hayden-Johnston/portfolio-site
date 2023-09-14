@@ -15,7 +15,7 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
 
-const drawerWidth = 240;
+const drawerWidth = 200;
 const navItems = [<Link to="/">Home</Link>, <Link to="../about">About</Link>, <Link to="../portfolio">Portfolio</Link>, <Link to="../contact">Contact</Link>];
 
 function DrawerAppBar(props) {
@@ -27,13 +27,13 @@ function DrawerAppBar(props) {
   };
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
+    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center"}}>
       <Divider />
       <List>
         {navItems.map((item) => (
           <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: "center" }}>
-              <ListItemText primary={item} />
+            <ListItemButton sx={{ textAlign: "center"}}>
+              <ListItemText primary={item} primaryTypographyProps={{fontSize: '30px'}}/>
             </ListItemButton>
           </ListItem>
         ))}
@@ -82,6 +82,7 @@ function DrawerAppBar(props) {
             keepMounted: true // Better open performance on mobile.
           }}
           sx={{
+            backgroundColor: "#dae6e6",
             display: { xs: "block", sm: "none" },
             "& .MuiDrawer-paper": {
               boxSizing: "border-box",
