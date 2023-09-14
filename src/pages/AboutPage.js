@@ -6,7 +6,7 @@ function AboutPage() {
         <>
 
     <div class="center-container">
-        <img src="images/selfie.png" alt="" class="portrait"></img>
+        <img src="images/selfie.png" alt="" class="portrait" width="250"></img>
         <article class="container">
             <h2>I'm Hayden</h2>
             <br></br>
