@@ -1,5 +1,7 @@
 import React from 'react';
 import Button from '../components/ContactButton.js';
+import { Link } from 'react-router-dom';
+
 function HomePage() {
     return (
         <>
@@ -16,7 +18,9 @@ function HomePage() {
             Looking for Internships + Entry level opportunities.
         </p>
     </article>
-    <Button></Button>
+    <Link to="/contact">
+        <Button></Button>
+    </Link>
     </div>
         </>
     );
