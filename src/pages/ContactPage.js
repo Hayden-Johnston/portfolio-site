@@ -50,12 +50,13 @@ function ContactPage() {
     <br></br>
     <div class="center-container">
       
-        <form onSubmit={sendEmail}>
+        <form onSubmit={sendEmail} >
           <fieldset>
                 <Box
                 component="form"
                 sx={{
                   '& .MuiTextField-root': { m: 1, width: '60ch' },
+                  flex: 1,
                 }}
                 noValidate
                 autoComplete="off"
@@ -66,7 +67,6 @@ function ContactPage() {
                     id="standard-required"
                     label="Name"
                     name="from_name"
-                    width="100%"
                     onChange={handleChange}
                   />
                   <br></br>
