@@ -5,8 +5,8 @@ function AboutPage() {
     return (
         <>
 
-    <div class="center-container">
-        <img src="images/selfie.png" alt="" class="portrait" width="250"></img>
+    <div class="center-container" style={{ paddingTop:"40px" }}>
+        <img src="images/selfie.png" alt="" class="portrait" width="250" margin="20px"></img>
         <article class="container">
             <h2>I'm Hayden, a US based developer.</h2>
             <br></br>
