@@ -65,7 +65,7 @@ body {
   gap: 40px; /* Adjust the spacing between cards */
   max-width: 95%;
   padding: 20px;
-  flex-basis: 66%;
+  flex-basis: 88%;
 }
 
 .center-container {
