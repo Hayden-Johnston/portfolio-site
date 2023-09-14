@@ -73,6 +73,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 /* Header Styles */
@@ -117,12 +118,12 @@ footer p {
 
 /* Links Styles */
 a {
-  color: var(--secondary-color);
+  color: var(--background-color);
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--accent-color);
+  color: var(--secondary-color);
 }
 
 nav {
@@ -146,8 +147,4 @@ button {
 /* List */
 .two-column-list {
   column-count: 2;
-}
-
-.contact-form {
-  border:none;
 }

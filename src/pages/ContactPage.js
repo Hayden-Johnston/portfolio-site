@@ -50,12 +50,13 @@ function ContactPage() {
     <br></br>
     <div class="center-container">
       
-        <form onSubmit={sendEmail} >
+        <form onSubmit={sendEmail} width='100%' >
           <fieldset>
                 <Box
                 component="form"
                 sx={{
-                  '& .MuiTextField-root': { m: 1, width: '60ch' },
+                  width: '100%',
+                  '& .MuiTextField-root': { m: 1, minWidth: '40ch'},
                   flex: 1,
                 }}
                 noValidate
