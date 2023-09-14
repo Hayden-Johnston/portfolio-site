@@ -86,7 +86,9 @@ function DrawerAppBar(props) {
             display: { xs: "block", sm: "none" },
             "& .MuiDrawer-paper": {
               boxSizing: "border-box",
-              width: drawerWidth
+              width: drawerWidth,
+              backgroundColor: "#2c3e50",
+              Color: "#dae6e6"
             }
           }}
         >
