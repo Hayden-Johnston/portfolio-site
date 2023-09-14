@@ -56,7 +56,7 @@ function ContactPage() {
                 component="form"
                 sx={{
                   width: '100%',
-                  '& .MuiTextField-root': { m: 1, minWidth: '40ch'},
+                  '& .MuiTextField-root': { m: 1, width: '35ch'},
                   flex: 1,
                 }}
                 noValidate
@@ -68,6 +68,7 @@ function ContactPage() {
                     id="standard-required"
                     label="Name"
                     name="from_name"
+                    width='100%'
                     onChange={handleChange}
                   />
                   <br></br>
@@ -76,6 +77,7 @@ function ContactPage() {
                     id="standard-required"
                     label="Email"
                     name="user_email"
+                    width='100%'
                     onChange={handleChange}
                   />
                   <br></br>
@@ -83,6 +85,7 @@ function ContactPage() {
                     id="standard-required"
                     label="Subject"
                     name="subject"
+                    width='100%'
                     onChange={handleChange}
                   />
                   <br></br>
@@ -93,6 +96,7 @@ function ContactPage() {
                     name="message"
                     multiline
                     rows={5}
+                    width='100%'
                     onChange={handleChange}
                   />
                   
