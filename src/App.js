@@ -12,6 +12,26 @@ import AboutPage from './pages/AboutPage.js';
 import PortfolioPage from './pages/PortfolioPage.js';
 import ContactPage from './pages/ContactPage.js';
 
+// Initialize EmailJS
+const token = process.env.REACT_APP_EMAILJS;
+emailjs.init({
+  publicKey: token,
+  // Do not allow headless browsers
+  blockHeadless: true,
+  blockList: {
+    // Block the suspended emails
+    list: [],
+    // The variable contains the email address
+    watchVariable: 'userEmail',
+  },
+  limitRate: {
+    // Set the limit rate for the application
+    id: 'app',
+    // Allow 1 request per 10s
+    throttle: 10000,
+  },
+});
+
 // Define the function that renders the content in routes using State.
 function App() {
   return (
